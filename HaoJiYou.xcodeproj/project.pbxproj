@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D01165B192CE89B0009FE46 /* HJYStore+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D01165A192CE89B0009FE46 /* HJYStore+Util.m */; };
+		6D011660192CEAEA0009FE46 /* HJYStore+DictStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D01165F192CEAEA0009FE46 /* HJYStore+DictStore.m */; };
+		6D011663192CF7390009FE46 /* HJYDict.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D011662192CF7390009FE46 /* HJYDict.m */; };
+		6D212B9C192ECF2500C46686 /* cet4.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6D212B9B192ECF2500C46686 /* cet4.csv */; };
+		6D212BA0192F1C6500C46686 /* dict.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D212B9F192F1C6500C46686 /* dict.plist */; };
+		6D70CF601930873100638264 /* HJYWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D70CF5F1930873100638264 /* HJYWord.m */; };
 		6DD1C772192893E80062E079 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD1C771192893E80062E079 /* Foundation.framework */; };
 		6DD1C774192893E80062E079 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD1C773192893E80062E079 /* CoreGraphics.framework */; };
 		6DD1C776192893E80062E079 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD1C775192893E80062E079 /* UIKit.framework */; };
@@ -21,6 +27,8 @@
 		6DD1C793192893E80062E079 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD1C775192893E80062E079 /* UIKit.framework */; };
 		6DD1C79B192893E80062E079 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6DD1C799192893E80062E079 /* InfoPlist.strings */; };
 		6DD1C79D192893E80062E079 /* HaoJiYouTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD1C79C192893E80062E079 /* HaoJiYouTests.m */; };
+		6DD1C7A71928DF510062E079 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD1C7A61928DF510062E079 /* libsqlite3.dylib */; };
+		6DD1C7AB1928E6830062E079 /* HJYStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD1C7AA1928E6830062E079 /* HJYStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D011651192C673A0009FE46 /* HJYStoreConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HJYStoreConst.h; path = store/HJYStoreConst.h; sourceTree = "<group>"; };
+		6D011659192CE89B0009FE46 /* HJYStore+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "HJYStore+Util.h"; path = "store/HJYStore+Util.h"; sourceTree = "<group>"; };
+		6D01165A192CE89B0009FE46 /* HJYStore+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "HJYStore+Util.m"; path = "store/HJYStore+Util.m"; sourceTree = "<group>"; };
+		6D01165E192CEAEA0009FE46 /* HJYStore+DictStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "HJYStore+DictStore.h"; path = "store/HJYStore+DictStore.h"; sourceTree = "<group>"; };
+		6D01165F192CEAEA0009FE46 /* HJYStore+DictStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "HJYStore+DictStore.m"; path = "store/HJYStore+DictStore.m"; sourceTree = "<group>"; };
+		6D011661192CF7390009FE46 /* HJYDict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HJYDict.h; path = store/HJYDict.h; sourceTree = "<group>"; };
+		6D011662192CF7390009FE46 /* HJYDict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HJYDict.m; path = store/HJYDict.m; sourceTree = "<group>"; };
+		6D212B9B192ECF2500C46686 /* cet4.csv */ = {isa = PBXFileReference; lastKnownFileType = text; name = cet4.csv; path = resource/cet4.csv; sourceTree = "<group>"; };
+		6D212B9F192F1C6500C46686 /* dict.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = dict.plist; path = resource/dict.plist; sourceTree = "<group>"; };
+		6D70CF5E1930873100638264 /* HJYWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HJYWord.h; path = store/HJYWord.h; sourceTree = "<group>"; };
+		6D70CF5F1930873100638264 /* HJYWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HJYWord.m; path = store/HJYWord.m; sourceTree = "<group>"; };
 		6DD1C76E192893E80062E079 /* HaoJiYou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaoJiYou.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DD1C771192893E80062E079 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6DD1C773192893E80062E079 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +72,9 @@
 		6DD1C798192893E80062E079 /* HaoJiYouTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HaoJiYouTests-Info.plist"; sourceTree = "<group>"; };
 		6DD1C79A192893E80062E079 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6DD1C79C192893E80062E079 /* HaoJiYouTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HaoJiYouTests.m; sourceTree = "<group>"; };
+		6DD1C7A61928DF510062E079 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		6DD1C7A91928E6830062E079 /* HJYStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HJYStore.h; path = store/HJYStore.h; sourceTree = "<group>"; };
+		6DD1C7AA1928E6830062E079 /* HJYStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HJYStore.m; path = store/HJYStore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DD1C7A71928DF510062E079 /* libsqlite3.dylib in Frameworks */,
 				6DD1C774192893E80062E079 /* CoreGraphics.framework in Frameworks */,
 				6DD1C776192893E80062E079 /* UIKit.framework in Frameworks */,
 				6DD1C772192893E80062E079 /* Foundation.framework in Frameworks */,
@@ -79,6 +102,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D011652192CA27D0009FE46 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				6D212B9B192ECF2500C46686 /* cet4.csv */,
+				6D212B9F192F1C6500C46686 /* dict.plist */,
+			);
+			name = resource;
+			sourceTree = "<group>";
+		};
 		6DD1C765192893E80062E079 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +133,7 @@
 		6DD1C770192893E80062E079 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6DD1C7A61928DF510062E079 /* libsqlite3.dylib */,
 				6DD1C771192893E80062E079 /* Foundation.framework */,
 				6DD1C773192893E80062E079 /* CoreGraphics.framework */,
 				6DD1C775192893E80062E079 /* UIKit.framework */,
@@ -112,6 +145,8 @@
 		6DD1C777192893E80062E079 /* HaoJiYou */ = {
 			isa = PBXGroup;
 			children = (
+				6D011652192CA27D0009FE46 /* resource */,
+				6DD1C7A81928E6390062E079 /* store */,
 				6DD1C780192893E80062E079 /* HJYAppDelegate.h */,
 				6DD1C781192893E80062E079 /* HJYAppDelegate.m */,
 				6DD1C783192893E80062E079 /* Main.storyboard */,
@@ -150,6 +185,24 @@
 				6DD1C799192893E80062E079 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6DD1C7A81928E6390062E079 /* store */ = {
+			isa = PBXGroup;
+			children = (
+				6DD1C7A91928E6830062E079 /* HJYStore.h */,
+				6DD1C7AA1928E6830062E079 /* HJYStore.m */,
+				6D011651192C673A0009FE46 /* HJYStoreConst.h */,
+				6D011659192CE89B0009FE46 /* HJYStore+Util.h */,
+				6D01165A192CE89B0009FE46 /* HJYStore+Util.m */,
+				6D01165E192CEAEA0009FE46 /* HJYStore+DictStore.h */,
+				6D01165F192CEAEA0009FE46 /* HJYStore+DictStore.m */,
+				6D011661192CF7390009FE46 /* HJYDict.h */,
+				6D011662192CF7390009FE46 /* HJYDict.m */,
+				6D70CF5E1930873100638264 /* HJYWord.h */,
+				6D70CF5F1930873100638264 /* HJYWord.m */,
+			);
+			name = store;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +284,8 @@
 			files = (
 				6DD1C78A192893E80062E079 /* Images.xcassets in Resources */,
 				6DD1C77C192893E80062E079 /* InfoPlist.strings in Resources */,
+				6D212B9C192ECF2500C46686 /* cet4.csv in Resources */,
+				6D212BA0192F1C6500C46686 /* dict.plist in Resources */,
 				6DD1C785192893E80062E079 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,9 +305,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D011663192CF7390009FE46 /* HJYDict.m in Sources */,
 				6DD1C782192893E80062E079 /* HJYAppDelegate.m in Sources */,
+				6D01165B192CE89B0009FE46 /* HJYStore+Util.m in Sources */,
+				6D70CF601930873100638264 /* HJYWord.m in Sources */,
+				6DD1C7AB1928E6830062E079 /* HJYStore.m in Sources */,
 				6DD1C77E192893E80062E079 /* main.m in Sources */,
 				6DD1C788192893E80062E079 /* HJYViewController.m in Sources */,
+				6D011660192CEAEA0009FE46 /* HJYStore+DictStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +517,7 @@
 				6DD1C7A2192893E80062E079 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6DD1C7A3192893E80062E079 /* Build configuration list for PBXNativeTarget "HaoJiYouTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +526,7 @@
 				6DD1C7A5192893E80062E079 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

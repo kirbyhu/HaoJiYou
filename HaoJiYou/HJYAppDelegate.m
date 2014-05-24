@@ -2,17 +2,30 @@
 //  HJYAppDelegate.m
 //  HaoJiYou
 //
-//  Created by 小明明 on 14-5-18.
+//  Created by siddontang on 14-5-18.
 //  Copyright (c) 2014年 hjy. All rights reserved.
 //
 
 #import "HJYAppDelegate.h"
+#import "HJYStore.h"
+
+@interface HJYAppDelegate()
+@property (strong, nonatomic, readwrite) HJYStore *store;
+@end
 
 @implementation HJYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    HJYStore* s = [[HJYStore alloc] init];
+    if(s) {
+        self.store = s;
+    } else {
+        return NO;
+    }
+    
     return YES;
 }
 							
