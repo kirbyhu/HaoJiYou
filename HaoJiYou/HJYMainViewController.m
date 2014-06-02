@@ -7,10 +7,8 @@
 //
 
 #import "HJYMainViewController.h"
-#import "SWRevealViewController.h"
 
 @interface HJYMainViewController ()
-@property (weak, nonatomic) IBOutlet UIBarButtonItem *sideBarButtonItem;
 
 @end
 
@@ -29,9 +27,6 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-
-    [self.sideBarButtonItem setTarget:self.revealViewController];
-    [self.sideBarButtonItem setAction:@selector(revealToggle:)];
     
 }
 
