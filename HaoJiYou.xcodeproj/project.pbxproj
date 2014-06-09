@@ -16,9 +16,11 @@
 		6D129B04193C6FEA0001F6D5 /* ECSlidingSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D129AFC193C6FEA0001F6D5 /* ECSlidingSegue.m */; };
 		6D129B05193C6FEA0001F6D5 /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D129AFE193C6FEA0001F6D5 /* ECSlidingViewController.m */; };
 		6D129B06193C6FEA0001F6D5 /* UIViewController+ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D129B00193C6FEA0001F6D5 /* UIViewController+ECSlidingViewController.m */; };
+		6D129B091945FBB60001F6D5 /* HJYEmptySegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D129B081945FBB60001F6D5 /* HJYEmptySegue.m */; };
+		6D129B0C1945FFBF0001F6D5 /* HJYMainContainerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D129B0B1945FFBF0001F6D5 /* HJYMainContainerController.m */; };
 		6D212B9C192ECF2500C46686 /* cet4.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6D212B9B192ECF2500C46686 /* cet4.csv */; };
 		6D212BA0192F1C6500C46686 /* dict.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D212B9F192F1C6500C46686 /* dict.plist */; };
-		6D2F44C9193B08ED0059B28B /* HJMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2F44C8193B08ED0059B28B /* HJMenuViewController.m */; };
+		6D2F44C9193B08ED0059B28B /* HJYMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2F44C8193B08ED0059B28B /* HJYMenuViewController.m */; };
 		6D70CF601930873100638264 /* HJYWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D70CF5F1930873100638264 /* HJYWord.m */; };
 		6D8D9485193B0D2400F61E8F /* HJYMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8D9484193B0D2400F61E8F /* HJYMainViewController.m */; };
 		6DD1C772192893E80062E079 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD1C771192893E80062E079 /* Foundation.framework */; };
@@ -69,10 +71,14 @@
 		6D129AFE193C6FEA0001F6D5 /* ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ECSlidingViewController.m; path = Library/ECSlidingViewController.m; sourceTree = "<group>"; };
 		6D129AFF193C6FEA0001F6D5 /* UIViewController+ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+ECSlidingViewController.h"; path = "Library/UIViewController+ECSlidingViewController.h"; sourceTree = "<group>"; };
 		6D129B00193C6FEA0001F6D5 /* UIViewController+ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+ECSlidingViewController.m"; path = "Library/UIViewController+ECSlidingViewController.m"; sourceTree = "<group>"; };
+		6D129B071945FBB60001F6D5 /* HJYEmptySegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJYEmptySegue.h; sourceTree = "<group>"; };
+		6D129B081945FBB60001F6D5 /* HJYEmptySegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJYEmptySegue.m; sourceTree = "<group>"; };
+		6D129B0A1945FFBF0001F6D5 /* HJYMainContainerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJYMainContainerController.h; sourceTree = "<group>"; };
+		6D129B0B1945FFBF0001F6D5 /* HJYMainContainerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJYMainContainerController.m; sourceTree = "<group>"; };
 		6D212B9B192ECF2500C46686 /* cet4.csv */ = {isa = PBXFileReference; lastKnownFileType = text; name = cet4.csv; path = resource/cet4.csv; sourceTree = "<group>"; };
 		6D212B9F192F1C6500C46686 /* dict.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = dict.plist; path = resource/dict.plist; sourceTree = "<group>"; };
-		6D2F44C7193B08ED0059B28B /* HJMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJMenuViewController.h; sourceTree = "<group>"; };
-		6D2F44C8193B08ED0059B28B /* HJMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJMenuViewController.m; sourceTree = "<group>"; };
+		6D2F44C7193B08ED0059B28B /* HJYMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJYMenuViewController.h; sourceTree = "<group>"; };
+		6D2F44C8193B08ED0059B28B /* HJYMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJYMenuViewController.m; sourceTree = "<group>"; };
 		6D70CF5E1930873100638264 /* HJYWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HJYWord.h; path = store/HJYWord.h; sourceTree = "<group>"; };
 		6D70CF5F1930873100638264 /* HJYWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HJYWord.m; path = store/HJYWord.m; sourceTree = "<group>"; };
 		6D8D9483193B0D2400F61E8F /* HJYMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJYMainViewController.h; sourceTree = "<group>"; };
@@ -195,10 +201,14 @@
 				6DD1C783192893E80062E079 /* Main.storyboard */,
 				6DD1C789192893E80062E079 /* Images.xcassets */,
 				6DD1C778192893E80062E079 /* Supporting Files */,
-				6D2F44C7193B08ED0059B28B /* HJMenuViewController.h */,
-				6D2F44C8193B08ED0059B28B /* HJMenuViewController.m */,
+				6D2F44C7193B08ED0059B28B /* HJYMenuViewController.h */,
+				6D2F44C8193B08ED0059B28B /* HJYMenuViewController.m */,
 				6D8D9483193B0D2400F61E8F /* HJYMainViewController.h */,
 				6D8D9484193B0D2400F61E8F /* HJYMainViewController.m */,
+				6D129B071945FBB60001F6D5 /* HJYEmptySegue.h */,
+				6D129B081945FBB60001F6D5 /* HJYEmptySegue.m */,
+				6D129B0A1945FFBF0001F6D5 /* HJYMainContainerController.h */,
+				6D129B0B1945FFBF0001F6D5 /* HJYMainContainerController.m */,
 			);
 			path = HaoJiYou;
 			sourceTree = "<group>";
@@ -353,7 +363,8 @@
 				6D011663192CF7390009FE46 /* HJYDict.m in Sources */,
 				6D129B06193C6FEA0001F6D5 /* UIViewController+ECSlidingViewController.m in Sources */,
 				6DD1C782192893E80062E079 /* HJYAppDelegate.m in Sources */,
-				6D2F44C9193B08ED0059B28B /* HJMenuViewController.m in Sources */,
+				6D129B0C1945FFBF0001F6D5 /* HJYMainContainerController.m in Sources */,
+				6D2F44C9193B08ED0059B28B /* HJYMenuViewController.m in Sources */,
 				6D01165B192CE89B0009FE46 /* HJYStore+Util.m in Sources */,
 				6D70CF601930873100638264 /* HJYWord.m in Sources */,
 				6D129B05193C6FEA0001F6D5 /* ECSlidingViewController.m in Sources */,
@@ -363,6 +374,7 @@
 				6D129B02193C6FEA0001F6D5 /* ECSlidingAnimationController.m in Sources */,
 				6D129B03193C6FEA0001F6D5 /* ECSlidingInteractiveTransition.m in Sources */,
 				6D011660192CEAEA0009FE46 /* HJYStore+DictStore.m in Sources */,
+				6D129B091945FBB60001F6D5 /* HJYEmptySegue.m in Sources */,
 				6D8D9485193B0D2400F61E8F /* HJYMainViewController.m in Sources */,
 				6D129B01193C6FEA0001F6D5 /* ECPercentDrivenInteractiveTransition.m in Sources */,
 			);

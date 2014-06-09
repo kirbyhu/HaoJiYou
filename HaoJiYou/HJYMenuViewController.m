@@ -6,13 +6,13 @@
 //  Copyright (c) 2014年 hjy. All rights reserved.
 //
 
-#import "HJMenuViewController.h"
+#import "HJYMenuViewController.h"
 
-@interface HJMenuViewController ()
+@interface HJYMenuViewController ()
 @property (strong, nonatomic) NSArray* menuIdentifier;
 @end
 
-@implementation HJMenuViewController
+@implementation HJYMenuViewController
 
 - (IBAction)unwindToMenuViewController:(UIStoryboardSegue *)segue {}
 

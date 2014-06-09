@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HJMenuViewController : UITableViewController
+@interface HJYMenuViewController : UITableViewController
 - (IBAction)unwindToMenuViewController:(UIStoryboardSegue *)segue;
 @end
