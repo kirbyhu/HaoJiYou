@@ -1,18 +1,18 @@
 //
-//  HJYMainViewController.m
+//  HJYDictViewController.m
 //  HaoJiYou
 //
-//  Created by siddontang on 14-6-1.
+//  Created by tangliu on 14-6-10.
 //  Copyright (c) 2014年 hjy. All rights reserved.
 //
 
-#import "HJYMainViewController.h"
+#import "HJYDictViewController.h"
 
-@interface HJYMainViewController ()
+@interface HJYDictViewController ()
 
 @end
 
-@implementation HJYMainViewController
+@implementation HJYDictViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -27,7 +27,6 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
 }
 
 - (void)didReceiveMemoryWarning

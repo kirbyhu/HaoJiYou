@@ -38,6 +38,7 @@
 		6DD1C79D192893E80062E079 /* HaoJiYouTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD1C79C192893E80062E079 /* HaoJiYouTests.m */; };
 		6DD1C7A71928DF510062E079 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD1C7A61928DF510062E079 /* libsqlite3.dylib */; };
 		6DD1C7AB1928E6830062E079 /* HJYStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD1C7AA1928E6830062E079 /* HJYStore.m */; };
+		8124DD281946E0260010E304 /* HJYDictViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8124DD271946E0260010E304 /* HJYDictViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +104,8 @@
 		6DD1C7A61928DF510062E079 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		6DD1C7A91928E6830062E079 /* HJYStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HJYStore.h; path = store/HJYStore.h; sourceTree = "<group>"; };
 		6DD1C7AA1928E6830062E079 /* HJYStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HJYStore.m; path = store/HJYStore.m; sourceTree = "<group>"; };
+		8124DD261946E0260010E304 /* HJYDictViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJYDictViewController.h; sourceTree = "<group>"; };
+		8124DD271946E0260010E304 /* HJYDictViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJYDictViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +212,8 @@
 				6D129B081945FBB60001F6D5 /* HJYEmptySegue.m */,
 				6D129B0A1945FFBF0001F6D5 /* HJYMainContainerController.h */,
 				6D129B0B1945FFBF0001F6D5 /* HJYMainContainerController.m */,
+				8124DD261946E0260010E304 /* HJYDictViewController.h */,
+				8124DD271946E0260010E304 /* HJYDictViewController.m */,
 			);
 			path = HaoJiYou;
 			sourceTree = "<group>";
@@ -376,6 +381,7 @@
 				6D011660192CEAEA0009FE46 /* HJYStore+DictStore.m in Sources */,
 				6D129B091945FBB60001F6D5 /* HJYEmptySegue.m in Sources */,
 				6D8D9485193B0D2400F61E8F /* HJYMainViewController.m in Sources */,
+				8124DD281946E0260010E304 /* HJYDictViewController.m in Sources */,
 				6D129B01193C6FEA0001F6D5 /* ECPercentDrivenInteractiveTransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
