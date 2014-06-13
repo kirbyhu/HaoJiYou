@@ -95,7 +95,7 @@
     int count = 0;
     sqlite3_stmt* stmt = [self prepareSql:sql];
     if (sqlite3_step(stmt) == SQLITE_ROW) {
-        count = sqlite3_column_int(stmt, 1);
+        count = sqlite3_column_int(stmt, 0);
     }
     
     sqlite3_finalize(stmt);
@@ -108,7 +108,7 @@
     int count = 0;
     sqlite3_stmt* stmt = [self prepareSql:sql];
     if (sqlite3_step(stmt) == SQLITE_ROW) {
-        count = sqlite3_column_int(stmt, 1);
+        count = sqlite3_column_int(stmt, 0);
     }
     
     sqlite3_finalize(stmt);
@@ -192,10 +192,10 @@
     int n = sqlite3_step(stmt);
     if (n == SQLITE_ROW) {
         dict = [[HJYDict alloc]init];
-        dict.dictID = sqlite3_column_int(stmt, 1);
+        dict.dictID = sqlite3_column_int(stmt, 0);
         dict.name = name;
-        dict.category = [NSString stringWithUTF8String:(const char*)sqlite3_column_text(stmt, 2)];
-        dict.locked = sqlite3_column_int(stmt, 3);
+        dict.category = [NSString stringWithUTF8String:(const char*)sqlite3_column_text(stmt, 1)];
+        dict.locked = sqlite3_column_int(stmt, 2);
     }
     
     sqlite3_finalize(stmt);
@@ -325,8 +325,8 @@
     while (sqlite3_step(stmt) == SQLITE_ROW) {
         HJYWord* word = [[HJYWord alloc] init];
         word.status = wordStatus;
-        word.wordId = sqlite3_column_int(stmt, 1);
-        word.word =  [NSString stringWithUTF8String:(char*)sqlite3_column_text(stmt, 2)];
+        word.wordId = sqlite3_column_int(stmt, 0);
+        word.word =  [NSString stringWithUTF8String:(char*)sqlite3_column_text(stmt, 1)];
         [array addObject:word];
     }
     

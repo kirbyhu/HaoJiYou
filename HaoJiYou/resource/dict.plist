@@ -10,5 +10,21 @@
 		<key>path</key>
 		<string>cet4</string>
 	</dict>
+	<dict>
+		<key>name</key>
+		<string>大学英语六级</string>
+		<key>category</key>
+		<string>study</string>
+		<key>path</key>
+		<string>cet6</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>研究生英语</string>
+		<key>category</key>
+		<string>study</string>
+		<key>path</key>
+		<string>postgraduate</string>
+	</dict>
 </array>
 </plist>

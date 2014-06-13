@@ -39,6 +39,10 @@
 		6DD1C7A71928DF510062E079 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD1C7A61928DF510062E079 /* libsqlite3.dylib */; };
 		6DD1C7AB1928E6830062E079 /* HJYStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD1C7AA1928E6830062E079 /* HJYStore.m */; };
 		8124DD281946E0260010E304 /* HJYDictViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8124DD271946E0260010E304 /* HJYDictViewController.m */; };
+		818F8054194A92920076132F /* cet6.csv in Resources */ = {isa = PBXBuildFile; fileRef = 818F8052194A92920076132F /* cet6.csv */; };
+		818F8055194A92920076132F /* postgraduate.csv in Resources */ = {isa = PBXBuildFile; fileRef = 818F8053194A92920076132F /* postgraduate.csv */; };
+		818F8058194A99F00076132F /* HJYDictSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 818F8057194A99F00076132F /* HJYDictSelectViewController.m */; };
+		818F805B194A9B8D0076132F /* HJYDictSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 818F805A194A9B8D0076132F /* HJYDictSelectCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +110,12 @@
 		6DD1C7AA1928E6830062E079 /* HJYStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HJYStore.m; path = store/HJYStore.m; sourceTree = "<group>"; };
 		8124DD261946E0260010E304 /* HJYDictViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJYDictViewController.h; sourceTree = "<group>"; };
 		8124DD271946E0260010E304 /* HJYDictViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJYDictViewController.m; sourceTree = "<group>"; };
+		818F8052194A92920076132F /* cet6.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = cet6.csv; path = resource/cet6.csv; sourceTree = "<group>"; };
+		818F8053194A92920076132F /* postgraduate.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = postgraduate.csv; path = resource/postgraduate.csv; sourceTree = "<group>"; };
+		818F8056194A99F00076132F /* HJYDictSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJYDictSelectViewController.h; sourceTree = "<group>"; };
+		818F8057194A99F00076132F /* HJYDictSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJYDictSelectViewController.m; sourceTree = "<group>"; };
+		818F8059194A9B8D0076132F /* HJYDictSelectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJYDictSelectCell.h; sourceTree = "<group>"; };
+		818F805A194A9B8D0076132F /* HJYDictSelectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJYDictSelectCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +146,8 @@
 		6D011652192CA27D0009FE46 /* resource */ = {
 			isa = PBXGroup;
 			children = (
+				818F8052194A92920076132F /* cet6.csv */,
+				818F8053194A92920076132F /* postgraduate.csv */,
 				6D212B9B192ECF2500C46686 /* cet4.csv */,
 				6D212B9F192F1C6500C46686 /* dict.plist */,
 			);
@@ -214,6 +226,10 @@
 				6D129B0B1945FFBF0001F6D5 /* HJYMainContainerController.m */,
 				8124DD261946E0260010E304 /* HJYDictViewController.h */,
 				8124DD271946E0260010E304 /* HJYDictViewController.m */,
+				818F8056194A99F00076132F /* HJYDictSelectViewController.h */,
+				818F8057194A99F00076132F /* HJYDictSelectViewController.m */,
+				818F8059194A9B8D0076132F /* HJYDictSelectCell.h */,
+				818F805A194A9B8D0076132F /* HJYDictSelectCell.m */,
 			);
 			path = HaoJiYou;
 			sourceTree = "<group>";
@@ -342,8 +358,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				818F8055194A92920076132F /* postgraduate.csv in Resources */,
 				6DD1C78A192893E80062E079 /* Images.xcassets in Resources */,
 				6DD1C77C192893E80062E079 /* InfoPlist.strings in Resources */,
+				818F8054194A92920076132F /* cet6.csv in Resources */,
 				6D212B9C192ECF2500C46686 /* cet4.csv in Resources */,
 				6D212BA0192F1C6500C46686 /* dict.plist in Resources */,
 				6DD1C785192893E80062E079 /* Main.storyboard in Resources */,
@@ -374,9 +392,11 @@
 				6D70CF601930873100638264 /* HJYWord.m in Sources */,
 				6D129B05193C6FEA0001F6D5 /* ECSlidingViewController.m in Sources */,
 				6D129B04193C6FEA0001F6D5 /* ECSlidingSegue.m in Sources */,
+				818F8058194A99F00076132F /* HJYDictSelectViewController.m in Sources */,
 				6DD1C7AB1928E6830062E079 /* HJYStore.m in Sources */,
 				6DD1C77E192893E80062E079 /* main.m in Sources */,
 				6D129B02193C6FEA0001F6D5 /* ECSlidingAnimationController.m in Sources */,
+				818F805B194A9B8D0076132F /* HJYDictSelectCell.m in Sources */,
 				6D129B03193C6FEA0001F6D5 /* ECSlidingInteractiveTransition.m in Sources */,
 				6D011660192CEAEA0009FE46 /* HJYStore+DictStore.m in Sources */,
 				6D129B091945FBB60001F6D5 /* HJYEmptySegue.m in Sources */,
